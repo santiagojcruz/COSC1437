@@ -16,27 +16,18 @@ bool isVectorPalindrome(vector <char> bop, int str, int end)
     return true;
 }
 
-
 int main()
 {
     bool seep = true;
     vector <char> zee;
-    char ble;
-    while (seep)
+    string ble;
+    cout << "Enter a word\n";
+    cin >> ble;
+    for (int i=0; i<ble.size(); i++)
     {
-        cout << "Enter a character or Y to quit\n";
-        cin >> ble;
-        if (ble =='Y')
-        {
-            seep = false;
-        }
-        else
-        {
-            zee.push_back(ble);
-        }
-        cout << endl;
-        
+        zee.push_back(ble.at(i));
     }
+    cout << endl;        
     if (isVectorPalindrome(zee, 0, zee.size()-1))
     {
         cout << "that is a palindrome\n";
