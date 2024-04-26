@@ -3,7 +3,9 @@
 
 using namespace std;
 
-class Cake{
+class Cake
+
+{
     private:  
         int layers;
         string flavor;
@@ -147,5 +149,7 @@ class Game
 int main()
 {
     Cake jasmine;
+    Cookie magic;
+    Game darkSouls;
     return 0;
 }
