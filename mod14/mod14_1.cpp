@@ -3,6 +3,11 @@
 
 using namespace std;
 
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
 class Cake
 {
     private:  
@@ -143,6 +148,11 @@ class Game
 
         }
 //hi-angelina rivera
+};
+
+class iceCreamCake : Cake
+{
+    
 };
 
 int main()
